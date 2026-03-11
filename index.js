@@ -2,7 +2,7 @@ const express = require('express');
 //importa o mongodb em MongoCLient
 const { MongoClient, ObjectId } = require('mongodb');
 // configura a url do banco
-const url ="mongodb+srv://erik:1234@cluster0.1eil8fc.mongodb.net";
+const url ="mongodb://erik:1234@ac-fgh6ibt-shard-00-00.1eil8fc.mongodb.net:27017,ac-fgh6ibt-shard-00-01.1eil8fc.mongodb.net:27017,ac-fgh6ibt-shard-00-02.1eil8fc.mongodb.net:27017/?ssl=true&replicaSet=atlas-hv435g-shard-0&authSource=admin&appName=Cluster0";
 //const url="mongodb://127.0.0.1:27017";
 // nome do banco de dados
 const dbName = "backend-abril-24";
